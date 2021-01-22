@@ -7,3 +7,7 @@ node_js:
 arch:
   - amd64
   - ppc64le
+
+install:
+  - npm --depth 20 update caniuse-lite browserslist
+  - npm install
